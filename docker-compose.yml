@@ -1,0 +1,59 @@
+services:
+  # Combined PHP-FPM and Nginx Service
+  web:
+    build: .
+    platform: linux/arm64
+    container_name: awesome_corp_web
+    restart: unless-stopped
+    ports:
+      - "80:8080"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/server.conf
+      - ./docker/nginx/logs:/var/log/nginx
+    environment:
+      - DB_HOST=mysql
+      - DB_USER=root
+      - DB_PASSWORD=
+      - DB_NAME=test
+    networks:
+      - app-network
+
+  # MySQL Service
+  mysql:
+    image: mysql:5.7
+    platform: linux/x86_64
+    container_name: awesome_corp_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    volumes:
+      - ./assets/db.sql:/docker-entrypoint-initdb.d/db.sql
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+  # MailPit - Email Testing Service
+  mailpit:
+    image: axllent/mailpit
+    container_name: awesome_corp_mailpit
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # SMTP server port
+      - "8025:8025" # Web UI port
+    networks:
+      - app-network
+
+# Docker Networks
+networks:
+  app-network:
+    driver: bridge
+
+# Volumes
+volumes:
+  mysql-data:
+    driver: local 

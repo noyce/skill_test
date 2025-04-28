@@ -68,3 +68,17 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+DROP TABLE IF EXISTS `employee_meta_data`;
+
+CREATE TABLE `employee_meta_data` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `employee_id` int(11) unsigned NOT NULL,
+  `key` varchar(255) NOT NULL,
+  `value` text,
+  PRIMARY KEY (`id`),
+  KEY `employee_id` (`employee_id`),
+  CONSTRAINT `fk_employee_meta_employee_data` FOREIGN KEY (`employee_id`) REFERENCES `employee` (`id`) ON DELETE CASCADE
+
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+

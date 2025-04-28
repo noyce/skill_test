@@ -1,0 +1,129 @@
+2025/04/27 07:28:04 [error] 10#10: *1 directory index of "/var/www/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 07:28:05 [error] 10#10: *1 directory index of "/var/www/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 07:28:06 [error] 10#10: *1 directory index of "/var/www/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 07:34:14 [error] 8#8: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 07:34:55 [error] 9#9: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 07:37:19 [error] 13#13: *10 directory index of "/var/www/html/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 07:37:48 [error] 13#13: *10 directory index of "/var/www/html/html/" is forbidden, client: 192.168.65.1, server: localhost, request: "GET /html/ HTTP/1.1", host: "localhost"
+2025/04/27 16:03:16 [crit] 9#9: *23 stat() "/var/www/html/" failed (1: Operation not permitted), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 16:03:16 [crit] 9#9: *23 stat() "/var/www/html/" failed (1: Operation not permitted), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 16:03:28 [crit] 9#9: *23 stat() "/var/www/html/" failed (1: Operation not permitted), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 16:03:28 [crit] 9#9: *23 stat() "/var/www/html/" failed (1: Operation not permitted), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 16:04:13 [crit] 9#9: *23 stat() "/var/www/html/" failed (1: Operation not permitted), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 16:04:13 [crit] 9#9: *23 stat() "/var/www/html/" failed (1: Operation not permitted), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/04/27 16:07:32 [error] 10#10: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:07:33 [error] 10#10: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:07:56 [error] 10#10: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:08:28 [error] 10#10: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:10:21 [error] 16#16: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:10:22 [error] 16#16: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:10:41 [error] 16#16: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:12:14 [error] 10#10: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:12:23 [error] 10#10: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:12:23 [error] 10#10: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:12:23 [error] 10#10: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:12:23 [error] 10#10: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:12:23 [error] 10#10: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2025/04/27 16:17:20 [error] 12#12: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/web_app/new.php:48
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 48" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:18:19 [error] 12#12: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/web_app/new.php:48
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 48" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:20:20 [error] 9#9: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/web_app/new.php:48
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 48" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:20:45 [error] 9#9: *30 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/web_app/new.php:48
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 48" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:21:41 [error] 9#9: *30 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/web_app/new.php:48
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 48" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:22:26 [error] 9#9: *30 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/web_app/new.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 34" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:32:01 [error] 11#11: *81 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/web_app/new.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 34" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/27 16:34:15 [error] 11#11: *88 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token ";" in /var/www/html/web_app/new.php on line 34" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/27 16:34:16 [error] 11#11: *88 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token ";" in /var/www/html/web_app/new.php on line 34" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/28 01:21:26 [error] 15#15: *278 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/services/DatabaseProvider.php:22
+Stack trace:
+#0 /var/www/html/services/DatabaseProvider.php(40): [constant expression]()
+#1 /var/www/html/web_app/new.php(12): DatabaseProvider::getInstance()
+#2 /var/www/html/web_app/new.php(36): App\WebApp\NewEmployee->__construct()
+#3 {main}
+  thrown in /var/www/html/services/DatabaseProvider.php on line 22" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/28 01:22:17 [error] 15#15: *278 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/services/DatabaseProvider.php:22
+Stack trace:
+#0 /var/www/html/services/DatabaseProvider.php(40): [constant expression]()
+#1 /var/www/html/web_app/new.php(12): DatabaseProvider::getInstance()
+#2 /var/www/html/web_app/new.php(36): App\WebApp\NewEmployee->__construct()
+#3 {main}
+  thrown in /var/www/html/services/DatabaseProvider.php on line 22" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/28 01:22:22 [error] 15#15: *278 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/services/DatabaseProvider.php:22
+Stack trace:
+#0 /var/www/html/services/DatabaseProvider.php(40): [constant expression]()
+#1 /var/www/html/web_app/new.php(12): DatabaseProvider::getInstance()
+#2 /var/www/html/web_app/new.php(36): App\WebApp\NewEmployee->__construct()
+#3 {main}
+  thrown in /var/www/html/services/DatabaseProvider.php on line 22" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/28 01:29:55 [error] 9#9: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "PDO" not found in /var/www/html/services/DatabaseProvider.php:22
+Stack trace:
+#0 /var/www/html/services/DatabaseProvider.php(40): [constant expression]()
+#1 /var/www/html/web_app/new.php(12): DatabaseProvider::getInstance()
+#2 /var/www/html/web_app/new.php(36): App\WebApp\NewEmployee->__construct()
+#3 {main}
+  thrown in /var/www/html/services/DatabaseProvider.php on line 22" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/28 02:15:27 [error] 12#12: *85 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
+2025/04/28 02:24:58 [error] 11#11: *131 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "App\Models\Model" not found in /var/www/html/models/Employee.php:8
+Stack trace:
+#0 /var/www/html/web_app/new.php(8): include_once()
+#1 {main}
+  thrown in /var/www/html/models/Employee.php on line 8" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:33:02 [error] 10#10: *169 FastCGI sent in stderr: "PHP message: PHP Notice:  Indirect modification of overloaded property App\Models\Employee::$gender has no effect in /var/www/html/models/Employee.php on line 99" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:35:10 [error] 10#10: *184 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function App\WebApp\mysql_connect() in /var/www/html/web_app/new.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 66" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:35:10 [error] 10#10: *184 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:42:43 [error] 14#14: *228 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function App\WebApp\mysql_connect() in /var/www/html/web_app/new.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 66" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:42:43 [error] 14#14: *228 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:43:36 [error] 14#14: *228 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function App\WebApp\mysql_connect() in /var/www/html/web_app/new.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 66" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 02:43:36 [error] 14#14: *228 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:01:04 [error] 17#17: *309 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function App\WebApp\mysql_connect() in /var/www/html/web_app/new.php:70
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 70" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:01:04 [error] 17#17: *309 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:01:47 [error] 17#17: *309 FastCGI sent in stderr: "PHP message: PHP Notice:  Indirect modification of overloaded property App\Models\Employee::$metadata has no effect in /var/www/html/web_app/new.php on line 53; PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function App\WebApp\mysql_connect() in /var/www/html/web_app/new.php:70
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/web_app/new.php on line 70" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:01:47 [error] 17#17: *309 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:09:15 [error] 15#15: *351 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token "catch", expecting "function" in /var/www/html/web_app/new.php on line 59" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:09:33 [error] 15#15: *351 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token "{" in /var/www/html/web_app/new.php on line 47" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:11:19 [error] 15#15: *351 FastCGI sent in stderr: "PHP message: PHP Notice:  Indirect modification of overloaded property App\Models\Employee::$metadata has no effect in /var/www/html/web_app/new.php on line 57" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:11:19 [error] 15#15: *351 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:13:38 [error] 8#8: *403 FastCGI sent in stderr: "PHP message: PHP Notice:  Indirect modification of overloaded property App\Models\Employee::$metaData has no effect in /var/www/html/web_app/new.php on line 57" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:13:38 [error] 8#8: *403 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:17:05 [error] 8#8: *421 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:37:30 [error] 12#12: *488 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined global variable $_SESSION in /var/www/html/web_app/dashboard.php on line 5; PHP message: PHP Warning:  Trying to access array offset on null in /var/www/html/web_app/dashboard.php on line 5" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /web_app/dashboard.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:44:34 [error] 9#9: *1 FastCGI sent in stderr: "PHP message: Mail to asd@sdf.com sent successfully" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 03:55:36 [error] 9#9: *50 FastCGI sent in stderr: "PHP message: Mail to asd@sdf.com sent successfully" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 04:05:27 [error] 11#11: *94 FastCGI sent in stderr: "PHP message: Mail to asd@sdf.com sent successfully" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 04:11:16 [error] 11#11: *128 FastCGI sent in stderr: "PHP message: Mail to asd@sdf.com sent successfully" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "POST /web_app/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost", referrer: "http://localhost/web_app/new.php"
+2025/04/28 04:35:59 [error] 16#16: *247 FastCGI sent in stderr: "PHP message: Mail to luke.zawadzki@astutepayroll.com sent successfully" while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /api/new.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "localhost"
