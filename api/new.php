@@ -1,6 +1,8 @@
 <?php
+namespace App\Api;
 
-require_once("../models/Employee.php");
+use App\Services\EmployeeCreator;
+require_once("../services/EmployeeCreator.php");
 
 /**
  * For the purposes of the test, the way that the data comes in to the system is not relevant. Let's assume that
@@ -24,39 +26,28 @@ var_dump(handle_API_Request($receivedData));
  */
 function handle_API_Request($data) {
     try {
+        // Map the data to match EmployeeCreator's expected format
+        $mappedData = [
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'phone_number' => $data['number'],
+            'employee_type' => $data['type'],
+            'password' => sha1(uniqid()), //TODO: extract into separate service, use secure alogrithm
+        ];
 
-        mysql_connect("localhost", "root");
-        $employee = new Employee();
-        $employee->name = $data['name'];
-        $employee->email = $data['email'];
-        $employee->phoneNumber = $data['number'];
-        $employee->type = $data['type'];
-        $generatedPassword = uniqid();
-        $employee->password = sha1($generatedPassword);
-
-        $employee->save();
-
-        //auditing
-        $timestamp = date("d/m/y h:i:s");
-        $sql = "insert into audit_log (`message`) VALUES ('{$employee->name} was added on $timestamp')";
-        mysql_query($sql);
-
-        //send comms
-        mail($employee->email, "Thanks for registering", "Dear " . $employee->name . ",\nYou have been added to AwesomeCorp! your password is $generatedPassword.\nYou can login at: http://awesomecorp.recruiterforce.com/login.\nRegards,\nRecruiterForce");
-
-        $employee->email_sent = 1;
-        $employee->save();
+        // Use the EmployeeCreator service to handle employee creation
+        $employeeCreator = new EmployeeCreator();
+        $employee = $employeeCreator->createEmployee($mappedData, 'api');
 
         return array(
             "status" => "success",
             "message" => $employee->id . " was added"
         );
     }
-    catch (exception $e) {
+    catch (\Throwable $e) {
         return array(
             "status" => "error",
             "message" => $e->getMessage()
         );
     }
-
 }
